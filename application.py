@@ -5,7 +5,7 @@ application = Flask(__name__)
 
 
 def say_hello(username="World"):
-    return '<h1 style="color:blue;">Hello %s!</h1>\n' % username
+    return '<h1 style="color:purple;">Hello %s!</h1>\n' % username
 
 
 # some bits of text for the page.
